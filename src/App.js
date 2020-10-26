@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import logo from './images/mystery-machine-logo.png';
+import pumpkin from './images/pumpkin.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pumpkin} className="Spin" alt="logo" />
+        {/* <img src={} className="Logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
