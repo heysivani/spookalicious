@@ -1,13 +1,74 @@
-.App {
-  text-align: center;
+.App-header {
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(124,8,128,0.938813025210084) 35%, rgba(18,0,99,1) 100%);
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(73, 29, 230);
 }
 
-.Spin {
+.text {
+  display: inline-block;
+  inline-size: 300px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.media {
+  
+}
+
+.zoom {
+  padding: 10px;
+  transition: transform .2s; /* Animation */
   width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: rgb(202, 11, 139);
+}
+
+.App {
+  text-align: center;
+  display: inline-flexbox;
+  font-size: 20px;
+}
+
+#pumpkin {
+  position: relative;
+  right: 530px; 
+  bottom: 50px;
+}
+
+#pumpkin2 {
+  position: relative;
+  left: 400px; 
+  bottom: 50px;
+}
+
+
+.Spin {
+  width: 300px;
+  display: inline-block;
+  padding: 10px;
+  filter: opacity(10%) invert(50%);
+  transition: transform .2s; /* Animation */
+}
+
+.Spin:hover {
+  transform: scale(1.2);
+  filter: saturate(200%) invert(77%) opacity(30%);
 }
 
 .Logo {
   pointer-events: none;
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,19 +77,33 @@
   }
 }
 
-.App-header {
-  background-color: rgb(5, 2, 2);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(230, 109, 29);
-}
-
 .App-link {
   color: #04db56;
+}
+
+p {
+  color: #c599f1;
+  padding-top: 50px;
+  flex-flow: column;
+}
+
+span {
+    color: #c599f1;
+    font-family: monospace;
+    padding-top: 50px;
+    position: relative;
+    right: 500px;
+    bottom: 110px;
+}
+
+ul {
+  color: #c599f1;
+  font-family: monospace;
+  position: relative;
+  bottom: 200px;
+  right: 70px;
+  white-space: nowrap;
+  list-style-type: none;
 }
 
 @keyframes App-logo-spin {
