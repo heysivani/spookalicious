@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/spookalicious/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/spookalicious/static/js/main.5af7c586.chunk.js",
-    "main.js.map": "/spookalicious/static/js/main.5af7c586.chunk.js.map",
+    "main.css": "/spookalicious/static/css/main.5ed4fefe.chunk.css",
+    "main.js": "/spookalicious/static/js/main.6b58cc2b.chunk.js",
+    "main.js.map": "/spookalicious/static/js/main.6b58cc2b.chunk.js.map",
     "runtime-main.js": "/spookalicious/static/js/runtime-main.98799d86.js",
     "runtime-main.js.map": "/spookalicious/static/js/runtime-main.98799d86.js.map",
     "static/js/2.87205aed.chunk.js": "/spookalicious/static/js/2.87205aed.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.386ca963.chunk.js": "/spookalicious/static/js/3.386ca963.chunk.js",
     "static/js/3.386ca963.chunk.js.map": "/spookalicious/static/js/3.386ca963.chunk.js.map",
     "index.html": "/spookalicious/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/spookalicious/static/css/main.ab7136cd.chunk.css.map",
+    "static/css/main.5ed4fefe.chunk.css.map": "/spookalicious/static/css/main.5ed4fefe.chunk.css.map",
     "static/js/2.87205aed.chunk.js.LICENSE.txt": "/spookalicious/static/js/2.87205aed.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/spookalicious/static/media/logo.103b5fa1.svg"
+    "static/media/mystery-machine-logo.e4412e7b.png": "/spookalicious/static/media/mystery-machine-logo.e4412e7b.png",
+    "static/media/pumpkin.96c009bf.png": "/spookalicious/static/media/pumpkin.96c009bf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.98799d86.js",
     "static/js/2.87205aed.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.5af7c586.chunk.js"
+    "static/css/main.5ed4fefe.chunk.css",
+    "static/js/main.6b58cc2b.chunk.js"
   ]
 }
